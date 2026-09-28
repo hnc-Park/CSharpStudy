@@ -1,0 +1,13 @@
+# 압축 파일 (압축 해제된 폴더와 중복)
+*.zip
+
+# Visual Studio / .NET 빌드 산출물
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Rider / VS Code
+.idea/
+.vscode/
