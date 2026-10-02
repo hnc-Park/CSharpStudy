@@ -35,5 +35,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Book gulliver = new Book();
+        gulliver.Open();
+        gulliver.WriteIf(false,"nan");
+        gulliver.Close();
     }
 }
